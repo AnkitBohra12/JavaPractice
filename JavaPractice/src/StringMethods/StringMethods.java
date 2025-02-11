@@ -71,6 +71,22 @@ public class StringMethods {
 		
 		str1 = "Welcome to Selenium java and Selenium Python";
 		System.out.println(str1.replace('e', 't'));
+		
+		// subString() -----> extract substring from yhe main string
+		// starting index starts with 0  and ending index with 1
+		String st2 = "welcome to selenium";
+		System.out.println(st2.substring(3,7));
+		
+		
+		// toUpperCase, toLowerCase
+		System.out.println(st2.toLowerCase());
+		System.out.println(st2.toUpperCase());
+		
+		// split()	--------	splits string into multiple parts based on delimeter
+		
+		str2 = "abc@pqr@xyz@aol.com";		
+		String ar[]= str2.split("@");
+		System.out.println(Arrays.toString(ar));
 
 	} 
 
