@@ -72,7 +72,14 @@ public class Collection_ArrayListDemo {
 		while(it.hasNext()) {		// returns the boolean value 
 			System.out.print(it.next() + "  ");
 		}
+		
+		System.out.println();
+		System.out.println(myList.isEmpty());		// check arraylist is empty or not
+		myList.clear();
+		System.out.println(myList.isEmpty());			// clear all arraylist
 
 	}
+	
+//	Take arraylist and using it create a string
 
 }
